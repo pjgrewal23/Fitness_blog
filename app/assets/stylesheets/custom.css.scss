@@ -1,2 +1,25 @@
+$navbar-default-bg: #3a74e0;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{ float: left; font-size: 1.7em; color: #fff; text-transform: uppercase; letter-spacing: -1px; font-weight: bold; } 
+
+#logo:hover{ color: #e0423a; text-decoration: none; }
+
+.center {
+  text-align: left;
+
+}
+
+.jumbotron{
+  background-image: asset-url('FitnessBlog');
+  background-size:  cover;
+  height: 560px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
